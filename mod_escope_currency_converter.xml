@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="2.5"
+	client="site"
+	method="upgrade">
+	<name>mod_escope_currency_converter</name>
+	<author>Jan Linhart</author>
+	<creationDate>June 2012</creationDate>
+	<copyright>Copyright (C) Jan Linhart aka escope.cz. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>admin@escope.cz</authorEmail>
+	<authorUrl>www.escope.cz</authorUrl>
+	<version>1.0</version>
+	<description>MOD_ESCOPE_CURRENCY_CONVERTER_XML_DESCRIPTION</description>
+	<files>
+		<filename module="mod_escope_currency_converter">mod_escope_currency_converter.php</filename>
+		<folder>tmpl</folder>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>		
+                <filename>mod_escope_currency_converter.xml</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_escope_currency_converter.ini</language>
+		<language tag="en-GB">en-GB.mod_escope_currency_converter.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+			</fieldset>
+		</fields>
+	</config>
+</extension>
