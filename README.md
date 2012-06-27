@@ -1,5 +1,5 @@
 Constimator
-===========
+-----------
 Constimator is web application for estimating cost of constructions for Civil Engineering. Constimator runs on CMS Joomla! as a component. As a hackathon project I'll develope Joomla module mod_escope_currency_converter.
 
 Live at [Constimator.com](http://constimator.com/)
