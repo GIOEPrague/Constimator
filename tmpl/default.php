@@ -10,6 +10,7 @@
 defined('_JEXEC') or die;
 $currencies = array('CZK','EUR','USD');
 $session = JFactory::getSession();
+echo '<pre>';var_dump($session->get('object'));echo '</pre>';
 $selectedCurrency = $session->get('currency');
 var_dump($selectedCurrency);
 ?>
